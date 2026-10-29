@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="board">
+    <header>
+      <h1>Task Board</h1>
+      <p>Write what you need to do today.</p>
+    </header>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Type a task and press Enter">
+      <button id="addBtn" onclick="addTask()">+ Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+    <p id="emptyMsg">Nothing here yet. Add your first task.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
